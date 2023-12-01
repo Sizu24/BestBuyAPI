@@ -1,4 +1,4 @@
-const bby = require('bestbuy')('EyQcLwSjZwmJ9D3qIsGViKiQ');
+const bby = require('bestbuy')(process.env.BB_API_KEY);
 const cron = require('node-cron');
 const Twilio = require('twilio');
 
