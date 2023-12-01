@@ -1,8 +1,7 @@
+require('dotenv').config();
 const bby = require('bestbuy')(process.env.BB_API_KEY);
 const cron = require('node-cron');
 const Twilio = require('twilio');
-
-require('dotenv').config();
 
 // Twilio
 const accountSid = process.env.ACCOUNT_SID;
